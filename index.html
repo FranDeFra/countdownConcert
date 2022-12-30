@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PTN Countdown</title>
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap" rel="stylesheet">
+
+    <!--style-->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/mobile.css">
+</head>
+
+<body>
+    <div class="container-all">
+        <!--scritta iniziale-->
+        <div>
+            <div class="container-title">
+                <div class="container-word">
+                    <h1>Pinguini</h1>
+                </div>
+                <div class="container-word">
+                    <h1>Tattici</h1>
+                </div>
+                <div class="container-word">
+                    <h1>Nucleari</h1>
+                </div>
+            </div>
+        </div>
+        <!--contenitore countdown-->
+        <div class="container">
+            <div class="stage">
+                <!--Countdown-->
+                <div class="panel">
+                    <h1 class="where">Stadio Olimpico<br> Roma</h1>
+                    <h2>24 Luglio 2023</h2>
+                    <!--counter-->
+                    <div class="counter">
+                        <div class="counter-block">
+                            <div id="days" class="counter-block-number">00</div>
+                            <div class="counter-block-label">Days</div>
+                        </div>
+                        <div class="counter-block">
+                            <div id="hours" class="counter-block-number">00</div>
+                            <div class="counter-block-label">Hours</div>
+                        </div>
+                        <div class="counter-block">
+                            <div id="minutes" class="counter-block-number">00</div>
+                            <div class="counter-block-label">Minutes</div>
+                        </div>
+                        <div class="counter-block">
+                            <div id="seconds" class="counter-block-number">00</div>
+                            <div class="counter-block-label">Seconds</div>
+                        </div>
+                    </div>
+                </div>
+                <!--foto sfondo-->
+                <img src="images/PNT.png" alt="Pinguini Tattici Nucleari">
+                <img class="album album_1" src="images/il_re_è_nudo.jpg" alt="album 'Il re è nudo'">
+                <img class="album album_2" src="images/diamo_un_calcio_all_aldilà.jpg"
+                    alt="album 'Diamo un calcio all'aldilà'">
+                <img class="album album_3" src="images/gioventù_brucata.jpg" alt="album 'Giovenyù Brucata'">
+                <img class="album album_4" src="images/fuori_dall_hype.jpg" alt="album 'Fuori dall'Hype'">
+                <img class="album album_5" src="images/fuori_dall_hype_2.jpg" alt="album 'Fuori dall'Hype Ringo Starr'">
+                <img class="album album_6" src="images/ahia!.jpg" alt="album 'Ajia!'">
+                <img class="album album_7" src="images/fake_news.jfif" alt="album 'Fake News'">
+            </div>
+        </div>
+        <!--Modale-->
+        <div id="modal" class="modal-overlay modal-hidden">
+            <div class="modal-window">
+                <button class="modal-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                    </svg>
+                </button>
+                <div class="modal-content">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Records-->
+    <div class="panel-records">
+        <div class="container-records">
+            <div class="records-block">
+                <div class="records-block-img"><img class="records" src="images/Disco_platino.png"></div>
+                <div class="records-block-label">2X<br> PLATINO</div>
+                <div class="records-block-label-title">ALBUM FUORI<br> DALL'HYPE</div>
+            </div>
+            <div class="records-block">
+                <div class="records-block-img"><img class="records" src="images/Disco_platino.png"></div>
+                <div class="records-block-label">2X<br> PLATINO</div>
+                <div class="records-block-label-title">RIDERE</div>
+            </div>
+            <div class="records-block">
+                <div class="records-block-img"><img class="records" src="images/Disco_platino.png"></div>
+                <div class="records-block-label">2X<br> PLATINO</div>
+                <div class="records-block-label-title">RINGO STARR</div>
+            </div>
+            <div class="records-block">
+                <div class="records-block-img"><img class="records" src="images/Disco_platino.png"></div>
+                <div class="records-block-label">PLATINO</div>
+                <div class="records-block-label-title">SCOOBY DOO</div>
+            </div>
+        </div>
+        <div class="container-records">
+            <div class="records-block">
+                <div class="records-block-img"><img class="records" src="images/Disco_platino.png"></div>
+                <div class="records-block-label">PLATINO</div>
+                <div class="records-block-label-title">LA STORIA<br> INFINITA</div>
+            </div>
+            <div class="records-block">
+                <div class="records-block-img"><img class="records" src="images/Disco_oro.png"></div>
+                <div class="records-block-label">ORO</div>
+                <div class="records-block-label-title">EP AHIA!</div>
+            </div>
+            <div class="records-block">
+                <div class="records-block-img"><img class="records" src="images/Disco_oro.png"></div>
+                <div class="records-block-label">ORO</div>
+                <div class="records-block-label-title">VERDURA</div>
+            </div>
+            <div class="records-block">
+                <div class="records-block-img"><img class="records" src="images/Disco_oro.png"></div>
+                <div class="records-block-label">ORO</div>
+                <div class="records-block-label-title">IRENE</div>
+            </div>
+        </div>
+        <div class="container-records">
+            <div class="records-block">
+                <div class="records-block-img"><img class="records" src="images/Disco_oro.png"></div>
+                <div class="records-block-label">ORO</div>
+                <div class="records-block-label-title">ANTARTIDE</div>
+            </div>
+            <div class="records-block">
+                <div class="records-block-img"><img class="records" src="images/Disco_oro.png"></div>
+                <div class="records-block-label">ORO</div>
+                <div class="records-block-label-title">NONONO</div>
+            </div>
+            <div class="records-block">
+                <div class="records-block-img"><img class="records" src="images/Disco_oro.png"></div>
+                <div class="records-block-label">ORO</div>
+                <div class="records-block-label-title">LA BANALITA'<br> DEL MARE</div>
+            </div>
+            <div class="records-block">
+                <div class="records-block-img"><img class="records" src="images/Disco_oro.png"></div>
+                <div class="records-block-label">ORO</div>
+                <div class="records-block-label-title">LAKE<br> WASHINGTON</div>
+            </div>
+        </div>
+        <div class="container-records">
+            <div class="records-block">
+                <div class="records-block-img"><img class="records" src="images/Disco_oro.png"></div>
+                <div class="records-block-label">ORO</div>
+                <div class="records-block-label-title">BOULEVARD</div>
+            </div>
+        </div>
+    </div>
+    <!--Scritta codice a barre-->
+    <div class="container-barcode">
+        <p class="barcode"> pinguini tattici nucleari</p>
+    </div>
+
+    <!--Script-->
+    <script src="source.js"></script>
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+</body>
+
+</html>

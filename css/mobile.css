@@ -1,0 +1,194 @@
+@media screen and (max-width: 780px) {
+
+
+    .container-all {
+        background-color: transparent;
+        width: 300px;
+        height: 800px;
+        margin: 32px auto 0 auto;
+    }
+
+
+    /*titolo*/
+    .container-title {
+        width: 100%;
+    }
+
+    .container-word {
+        height: 60px;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    /*coutdown*/
+    .container {
+        width: 100%;
+    }
+
+    .panel {
+        top: 160px;
+        width: 100%;
+    }
+
+    .where {
+        font-size: 1.8rem;
+    }
+
+    .counter-block-number {
+        font-size: 2rem;
+    }
+
+    .counter-block-label {
+        font-size: 1rem;
+    }
+
+    /*album*/
+    .album {
+        width: 3rem;
+    }
+
+    .album_1 {
+        top: -135px;
+        left: -33px;
+    }
+
+    .album_2 {
+        top: -227px;
+        left: 288px;
+    }
+
+    .album_3 {
+        top: -6px;
+        left: -13px;
+    }
+
+    .album_4 {
+        top: -28px;
+        left: 274px;
+    }
+
+    .album_5 {
+        top: 107px;
+        left: -39px;
+        transform: rotate(-47deg);
+        box-shadow: rgba(88, 67, 45, 0.4) -12px 10px 20px;
+        ;
+    }
+
+    .album_6 {
+        top: 106px;
+        left: 289px;
+    }
+
+    .album_7 {
+        top: -267px;
+        left: -7px;
+    }
+
+
+    /*modale*/
+    .modal-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(147, 123, 108, 0.6);
+        padding: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .modal-window {
+        min-width: 320px;
+        min-height: 320px;
+        max-width: 500px;
+        background-color: #bdab9f;
+        border-radius: 8px;
+        padding: 10px 32px 10px 32px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transition: transform 0.5s;
+        position: sticky;
+        
+    }
+    
+    .modal-content {
+        margin: 23px;
+    }
+    
+    .modal-content * {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+    .modal-button {
+        border: none;
+        color: #000000;
+        background-color: #bdab9f;
+        cursor: pointer;
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+    
+    .modal-button svg {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .modal-hidden {
+        visibility: hidden;
+    }
+    
+    .modal-hidden .modal-window {
+        transform: scale(0);
+    }
+
+
+    /*dischi*/
+    .panel-records {
+        width: 100%;
+        margin: -180px auto 0 auto;
+        padding: 16px 0px;
+        top: 535px;
+    }
+
+    .container-records {
+        margin: 3px;
+    }
+
+    .records-block {
+        margin: 0;
+    }
+
+    .records-block-label {
+        font-size: 0.8rem;
+    }
+
+    .records-block-label-title {
+        font-size: 0.6rem;
+    }
+
+    .records {
+        align-items: center;
+        width: 50px;
+        height: 50px;
+    }
+
+    /*codice a barre*/
+    .container-barcode {
+        width: 100%;
+        margin: 0 auto 0 auto;
+    }
+
+    .barcode {
+        font-size: 1.6rem;
+    }
+}
